@@ -1,0 +1,42 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-start;
+    background-color: rgb(215, 214, 214);
+    border-radius: 15px 50px 30px 5px;
+    box-shadow: 10px 5px 5px rgba(155, 154, 154, 0.961);
+}
+body{background-color: rgb(237, 220, 220)}
+
+.img-bcs{
+    width:32em;
+    border-radius: 15px 50px 0px 5px;
+    
+}
+.title-balise{
+    margin-left: 1rem;
+    font-size: 2em;
+    text-align: left;
+    height: 2rem;
+    
+}
+h2 ,.star-container{
+    margin-left: 1rem;
+    text-align: left;
+}
+.description{
+    margin-left: 1rem;
+    width: 30rem;
+    text-align: justify;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.button{
+    background-color: rgb(66, 112, 221);
+    color: rgba(255, 255, 255, 0.701);
+}
